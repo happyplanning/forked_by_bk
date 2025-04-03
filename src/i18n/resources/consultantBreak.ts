@@ -1,0 +1,40 @@
+export const consultantBreak = {
+  ko: {
+    title: '상담사 휴식 설정',
+    description: '상담사가 휴식할 수 있는 시간과 횟수를 설정해 주세요.',
+    breakTime: '휴식 최대 허용 시간',
+    maxBreakCount: '휴식 최대 허용 횟수',
+    note: '휴식 시간 동안 상담방은 자동으로 \'상담사 휴식\' 상태로 변경됩니다.',
+    enable: '상담사 휴식 활성화',
+    autoBreak: '자동 휴식 설정',
+    breakMessage: '휴식 안내 메시지',
+    breakMessagePlaceholder: '상담사 휴식 중입니다. 잠시만 기다려주세요.',
+    alertTitle: '알림',
+    minutes: '분',
+    customInput: '직접 입력',
+    times: '회',
+    setupMethod: '설정 방식',
+    noSetup: '설정 안함',
+    batchSetup: '일괄 설정',
+    noSetupMessage: '매니저가 별도의 휴식 시간을 설정하지 않습니다. 상담사는 각자의 업무 상태 설정 화면에서 휴식 시간을 선택할 수 있습니다.'
+  },
+  en: {
+    title: 'Consultant Break Settings',
+    description: 'Set the maximum break time and count for consultants.',
+    breakTime: 'Maximum Break Time',
+    maxBreakCount: 'Maximum Break Count',
+    note: 'Chat rooms will automatically change to "Consultant Break" status during break time.',
+    enable: 'Enable Consultant Breaks',
+    autoBreak: 'Automatic Break Settings',
+    breakMessage: 'Break Notification Message',
+    breakMessagePlaceholder: 'Consultant is on break. Please wait a moment.',
+    alertTitle: 'Alert',
+    minutes: 'minutes',
+    customInput: 'Custom Input',
+    times: 'times',
+    setupMethod: 'Setup Method',
+    noSetup: 'No Setup',
+    batchSetup: 'Batch Setup',
+    noSetupMessage: 'Manager does not set up separate break times. Consultants can select break times in their own status setting screen.'
+  }
+};
